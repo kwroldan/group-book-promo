@@ -11,25 +11,69 @@ h1 {
     margin: 20px;
     font-size: 32px;
 }
-
+/* summary */
 .summary {
     display:flex;
-    justify-content: space-around;
+    width: 75%;
+    justify-content: center;
     align-items: center;
+    background-color: blue;
+    padding-left:50px;
+    margin: 0 0 15px 15px;
+}
+.summary img{
+    width: auto;
+ 
+
 }
 
+.summary span{
+  padding-left: 25px;
+  font-weight: bolder;
+}
+/* reviews */
 .reviews {
+    display: flex;
     padding: 12px;
     margin: 20px;
     text-decoration: none;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
 }
+
+.reviews span {
+
+ font-weight: bold;
+
+}
+
+.reviews li {
+    padding-bottom: 15px;
+}
+
+
+@media (max-width:375px){
+    reviews {
+        display: flex;
+        padding: 12px;
+        margin: 20px;
+        text-decoration: none;
+        text-align: center;
+        width: 450px;
+    
+    } 
+}
+
+
+
+/* about the author*/
 
 .author {
     padding: 12px;
     margin: 20px;
 }
-
+/* purchase links*/
 .purchase a {
     text-decoration: none;
     list-style: none;
@@ -38,3 +82,5 @@ h1 {
 .purchase li {
     display: inline-block;
 }
+
+
