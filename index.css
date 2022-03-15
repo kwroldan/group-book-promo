@@ -85,7 +85,7 @@ body {
 
 
 /* reviews */
-.reviews {
+.reviews-prologue {
     display: flex;
     padding: 12px;
     margin: 20px;
@@ -95,12 +95,39 @@ body {
     width: 90%;
 }
 
-.reviews span {
+.review {
+    padding: 15px;
+
+}
+
+.reviews-prologue span {
     font-weight: bold;
 }
 
-.reviews li {
+.reviews-prologue li {
     padding-bottom: 15px;
+}
+
+.prologue {
+    width: 450px;
+    height: 200px;
+    overflow-y: scroll;
+    font-size: larger;
+    /*scroll bar color change only in firefox*/
+    scrollbar-color: hsl(9, 90%, 25%);
+    scrollbar-width: thin;
+
+}
+.prologue h3 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.prologue h4 {
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 15px;
+
 }
 
 
@@ -140,7 +167,13 @@ body {
     margin-bottom: 25px;
 }
 
+.purchase li:first-child {
+    font-weight: bolder;
+}
+
 .purchase li {
+    
+    font-size: large;
     display:inline-block;
 }
 
