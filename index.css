@@ -12,25 +12,37 @@ h1 {
     font-size: 32px;
 }
 /* summary */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
 .summary {
-    display:flex;
     width: 75%;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     padding-left:50px;
     margin: 0 0 15px 15px;
 }
+
 .summary img{
     width: auto;
- 
-
+    margin-left: 25px;
 }
 
 .summary span{
-  padding-left: 25px;
-  font-weight: bolder;
+    font-weight: bolder;
 }
+
+.summary p {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
 /* reviews */
 .reviews {
     display: flex;
@@ -43,9 +55,7 @@ h1 {
 }
 
 .reviews span {
-
- font-weight: bold;
-
+    font-weight: bold;
 }
 
 .reviews li {
