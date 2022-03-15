@@ -17,3 +17,24 @@ h1 {
     justify-content: space-around;
     align-items: center;
 }
+
+.reviews {
+    padding: 12px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.author {
+    padding: 12px;
+    margin: 20px;
+}
+
+.purchase a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.purchase li {
+    display: inline-block;
+}
